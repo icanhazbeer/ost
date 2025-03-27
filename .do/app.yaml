@@ -1,0 +1,8 @@
+name: ost
+services:
+- dockerfile_path: Dockerfile
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: icanhazbeer/ost
+  name: ost
