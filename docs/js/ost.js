@@ -31,7 +31,7 @@ function resetVariables() {
     $('#input_ram').val('');
     clusterName = 'DEVELOPMENT';
     $('#input_clusterName').val('');
-};
+}
 
 function calculateStepFourAndShow() {
     var inpt = 0;
@@ -90,7 +90,7 @@ function calculateStepFourAndShow() {
     $('#mem_ft_prnt_tot_mem').html(totalMemoryUtilization);
 
     $('#step_4').show();
-};
+}
 
 function calculateAndShow() {
     if($('#input_clusterName').val().length > 0){
@@ -135,5 +135,5 @@ function calculateAndShow() {
     $('#subs').html(subs);
     
     $('#step_5').show();
-};
+}
  
